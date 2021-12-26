@@ -1,0 +1,104 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
+    <link rel="stylesheet" href="css/owl.theme.default.min.css">
+    <title>Kubanik</title>
+</head>
+<body>
+    <div class="col-row">
+        <div class="col-left">
+            <div class="photo">
+                <div class="name">
+                    <a href="index.html"><h2>Josef<br>Kubanik.cz</h2></a>
+                </div>
+                <div class="contact">
+                    <div class="email">
+                        <p>Email:</p>
+                        <a href="mailto:info@josefkubanik.cz">info@josefkubanik.cz</a>
+                    </div>
+                    <div class="socials">
+                        <p>Sledujte mě</p>
+                        <a href="#" class="icon"><img src="img/fb.png" alt="fb-icon"></a>
+                        <a href="#" class="icon"><img src="img/ig.png" alt="ig-icon"></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-right">
+            <div id="content" class="subpage">
+                <div class="cross">
+                    <a href="index.html" class="circle">
+                        <img src="img/cross.png" alt="cross">
+                    </a>
+                </div>
+                <div class="row">
+                    <div class="col-12 side-news">
+                        <h1>Autor</h1>
+                        <div class="news">
+                            <div class="article">
+                                <a href="detail.html">
+                                    <img src="img/article.png" alt="article" class="img-fluid">    
+                                </a>
+                                <div>
+                                    <a href="detail.html" class="title">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do <b>eiusmod tempor incididunt ut labore.</b></a>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt <a href="detail.html" class="arr"><img src="img/arrow-more.png" alt=""></a></p>
+                                </div>
+                            </div>
+                            <div class="article">
+                                <a href="detail.html">
+                                    <img src="img/article.png" alt="article" class="img-fluid">    
+                                </a>
+                                <div>
+                                    <a href="detail.html" class="title">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do <b>eiusmod tempor incididunt ut labore.</b></a>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt <a href="detail.html" class="arr"><img src="img/arrow-more.png" alt=""></a></p>
+                                </div>
+                            </div>
+                            <div class="article">
+                                <a href="detail.html">
+                                    <img src="img/article.png" alt="article" class="img-fluid">    
+                                </a>
+                                <div>
+                                    <a href="detail.html" class="title">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do <b>eiusmod tempor incididunt ut labore.</b></a>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt <a href="detail.html" class="arr"><img src="img/arrow-more.png" alt=""></a></p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 copyright">
+                        <span>Copyright 2020 © josefkubanik.cz, Tvorba www stránek <a href="https://machin.cz/">MACHIN.CZ</a></span>
+                    </div>
+                </div>
+            </div>
+        </div>    
+    </div>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+    <script src="js/owl.carousel.min.js"></script>
+    <script>
+        $(document).ready(function () {
+            $('.spoluprace-carousel').owlCarousel({
+                loop:true,
+                loop:true,
+                nav: true,
+                navText: ["<img src='img/arrow-l.png'>","<img src='img/arrow-r.png'>"],
+                responsive:{
+                0:{
+                    items:2,
+                },
+                600:{
+                    items:2,
+                },
+                1000:{
+                    items:5,
+                }
+                },
+            });
+        });
+    </script>
+</body>
+</html>
